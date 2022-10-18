@@ -73,6 +73,7 @@ one side of the field is 8 yards. What is the width of the field?.
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
+          {/* //added Typography */}
           <Typography>
           5.The area of a soccer field is 56 square yards. The length of
 one side of the field is 8 yards. What is the width of the field?.
