@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:775b1e7d4b5ebfc1f08ef97bf3a0228f7d24fd676b4242d772b51b48b5455d71
-size 347
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
+);
